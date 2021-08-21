@@ -1,0 +1,371 @@
+.calculator {
+    width:375px;
+    height:570px;
+    background-color:palegoldenrod;
+    border-radius:3%;
+    box-shadow:1px 1px 10px black;
+  }
+  img {
+    width:100px;
+    background-color:blue;
+    margin-left:5px;
+    margin-top:2px;
+    margin-right:5px;
+    border-radius:30%;
+  }
+  .logo {
+    display:flex;
+  }
+    
+    h1 {
+      color:darkblue;
+      font-family: 'Roboto Mono', monospace;
+  }
+  
+  .input {
+    width:320px;
+    height:40px;
+    background-color:darkgreen;
+    border-top:3px grey solid;
+    border-bottom:3px grey solid;
+  }
+  .input:hover {
+    cursor:text;
+  }
+  
+  .percent-symbol {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:25px;
+    box-shadow:1px 2px 2px black;
+    margin-left:30px;
+    cursor:pointer;
+  }
+  
+  .num-seven {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:25px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .row-1 {
+    display:flex;
+  }
+  
+  .vol-controls {
+    display:flex;
+    margin-left:30px;
+  }
+  
+  h4 {
+    margin-right:250px;
+  }
+  
+  .alm-label {
+    margin-left:10px;
+    margin-right:3px;
+  }
+  
+  .set-label {
+    margin-left:10px;
+  }
+  
+  .hour-label {
+    margin-left:10px;
+  }
+  
+  .min-label {
+    margin-left:10px;
+  }
+  
+  h5 {
+    font-weight:300px;
+  }
+  
+  .on-btn {
+    cursor:pointer;
+    height:20px;
+    width:45px;
+    background-color:lightyellow;
+    margin-left:30px;
+    border-radius:40%;
+    border:double 4px black;
+    box-shadow:1px 1px 1px black;
+  }
+  .on-controls {
+    display:flex;
+  }
+  
+  .m-btn-1 {
+    margin-left:100px;
+    cursor:pointer;
+    background-color:grey;
+    border-radius:100%;
+    width:30px;
+    height:20px;
+    box-shadow:1px 1px 1px black;
+  }
+  .m-btn-2 {
+    margin-left:20px;
+    cursor:pointer;
+    background-color:grey;
+    border-radius:100%;
+    width:30px;
+    height:20px;
+    box-shadow:1px 1px 1px black;
+  }
+  .m-btn-3 {
+    margin-left:20px;
+    cursor:pointer;
+    background-color:grey;
+    border-radius:100%;
+    width:30px;
+    height:20px;
+    box-shadow:1px 1px 1px black;
+  }
+  
+  .m-btn-4 {
+    margin-left:20px;
+    cursor:pointer;
+    background-color:grey;
+    border-radius:100%;
+    width:30px;
+    height:20px;
+    box-shadow:1px 1px 1px black;
+  }
+  .num-eight {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:25px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  
+  .num-nine {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:25px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .division-symbol {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:25px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  
+  .ALM  {
+    height:35px;
+    width:58px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+    color:orange;
+  }
+  .CE {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  
+  .row-2 {
+    display:flex;
+  }
+  .num-four {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .num-five {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .num-six {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .multiplication-symbol {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .time  {
+    height:35px;
+    width:58px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:20px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+    color:orange;
+  }
+  .AC {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .row-three {
+    display:flex;
+  }
+  .num-one {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .num-two {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .num-three {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .subtraction-symbol {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .addition-symbol {
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .REP {
+    height:40px;
+    width:40px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:20px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  
+  .row-four {
+    display:flex;
+  }
+  .num-zero {
+    height:40px;
+    width:40px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:25px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .dec-point {
+    height:40px;
+    width:40px;
+    border-radius:100%;
+    background-color:grey;
+    font-size:22px;
+    box-shadow:1px 2px 2px black;
+    margin-left:25px;
+    cursor:pointer;
+  }
+  .equals-symbol {
+    height:40px;
+    width:80px;
+    border-radius:100%;
+    background-color:orange;
+    font-size:40px;
+    box-shadow:1px 2px 2px black;
+    margin-left:45px;
+    cursor:pointer;
+  }
+  
+  body {
+    background-image:url("https://images.pexels.com/photos/518245/pexels-photo-518245.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size:cover;
+  }
+  
+  .footer {
+    background-color:lightskyblue;
+    position:fixed;
+    bottom:0;
+    text-align:center;
+    width:100%;
+  }
+  
+  
